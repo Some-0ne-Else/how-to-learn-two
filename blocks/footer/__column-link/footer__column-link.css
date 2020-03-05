@@ -2,7 +2,8 @@
   color:white;
   margin: 0 0 16px;
   text-decoration: none;
+  transition: opacity 0.65s ease;
 }
 .footer__column-link:hover{
-  color:gold;
+  opacity: 0.5;
 }

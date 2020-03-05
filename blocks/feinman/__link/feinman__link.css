@@ -7,7 +7,8 @@
   font-weight: normal;
   text-decoration: none;
   color:#000000;
+  transition: opacity  0.65s ease;
 }
 .feinman__link:hover{
-color:#2f80eb;
+  opacity: 0.5;
 }
