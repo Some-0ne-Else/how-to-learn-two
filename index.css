@@ -3,11 +3,20 @@
 @import url("./blocks/logo/logo.css");
 @import url("./blocks/description/description.css");
 @import url("./blocks/two-columns/two-columns.css");
+@import url("./blocks/technics/technics.css");
+@import url("./blocks/section-title/section-title.css");
+@import url("./blocks/section-subtitle/section-subtitle.css");
+@import url("./blocks/cards/cards.css");
+@import url("./blocks/video/video.css");
+@import url("./blocks/oakley/oakley.css");
 @import url("./blocks/table/table.css");
 @import url("./blocks/feinman/feinman.css");
+@import url("./blocks/digits/digits.css");
+@import url("./blocks/khan/khan.css");
 @import url("./blocks/kaufman/kaufman.css");
 @import url("./blocks/table/_theme/_dark/table_theme_dark.css");
 @import url("./blocks/footer/footer.css");
+
 /*div, section, h1, h2 {
     border:1px red solid;
 }
@@ -26,22 +35,8 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 
-.section-title{
-    margin: 0 auto;
-    line-height: 69px;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    width: 60%;
-}
-.section-subtitle{
-    margin:20px auto 60px;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-    width: 60%;
-}
+
+
 
 .section-title_theme_dark{
     margin-top:90px;

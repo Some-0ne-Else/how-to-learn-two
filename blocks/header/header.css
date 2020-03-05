@@ -3,6 +3,11 @@
 @import url("../header/__subtitle/header__subtitle.css");
 @import url("../header/__main-illustration/header__main-illustration.css");
 @import url("../header/__square-pic/header__square-pic.css");
+@keyframes square-pic_rotation{
+  0%{  transform: rotate(-15deg); }
+
+  100%{transform: rotate(345deg); }
+ }
 
 
 .header {
@@ -12,6 +17,6 @@
   display: flex;
   background-color: #F2F2F2;
   position: relative;
-
-
+  overflow: hidden;
+  margin-bottom: 100px;
 }
