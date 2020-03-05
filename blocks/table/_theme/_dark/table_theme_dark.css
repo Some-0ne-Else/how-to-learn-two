@@ -1,0 +1,10 @@
+@import url("../../../table/__cell/_theme/_dark/table__cell_theme_dark.css");
+@import url("../../../table/__heading/_theme/_dark/table__heading_theme_dark.css");
+@import url("../../../table/__text/_theme/_dark/table__text_theme_dark.css");
+
+
+.table_theme_dark{
+  padding-bottom: 90px;
+  z-index: 2;
+  position: relative;
+}

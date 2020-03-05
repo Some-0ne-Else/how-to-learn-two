@@ -1,0 +1,66 @@
+@import url("../../vendor/normalize.css");
+@import url("../../blocks/header/header.css");
+@import url("../../blocks/logo/logo.css");
+@import url("../../blocks/description/description.css");
+@import url("../../blocks/two-columns/two-columns.css");
+@import url("../../blocks/table/table.css");
+@import url("../../blocks/feinman/feinman.css");
+@import url("../../blocks/kaufman/kaufman.css");
+@import url("../../blocks/table/_theme/_dark/table_theme_dark.css");
+@import url("../../blocks/footer/footer.css");
+/*div, section, h1, h2 {
+    border:1px red solid;
+}
+*/
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.description{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.section-title{
+    margin: 0 auto;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+}
+.section-subtitle{
+    margin:20px auto 60px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    width: 60%;
+}
+
+.section-title_theme_dark{
+    margin-top:90px;
+    color: white;
+
+}
+.section-subtitle_theme_dark{
+    margin: 20px auto 0 ;
+    color: white;
+}
+
+
+
+
+
+
+
+
+

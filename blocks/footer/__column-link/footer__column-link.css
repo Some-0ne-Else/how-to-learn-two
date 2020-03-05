@@ -1,0 +1,8 @@
+.footer__column-link{
+  color:white;
+  margin: 0 0 16px;
+  text-decoration: none;
+}
+.footer__column-link:hover{
+  color:gold;
+}
