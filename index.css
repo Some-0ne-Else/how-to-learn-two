@@ -1,3 +1,4 @@
+@import url("./blocks/rotation/rotation.css");
 @import url("./vendor/normalize.css");
 @import url("./blocks/header/header.css");
 @import url("./blocks/logo/logo.css");
@@ -20,11 +21,7 @@
 @import url("./blocks/table/_theme/_dark/table_theme_dark.css");
 @import url("./blocks/resources/resources.css");
 @import url("./blocks/footer/footer.css");
-@keyframes rotation{
-  /*0%{  transform: rotate(-15deg); }*/
 
-  100%{transform: rotate(345deg); }
- }
 
 .page {
     min-width: 1100px;
