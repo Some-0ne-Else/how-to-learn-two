@@ -2,6 +2,11 @@
   width: 620px;
   height: 608px;
   margin-right: 20px;
+  object-fit: cover;
+  object-position: top;
+
+  /*
   background-image: url("./book.jpg");
   background-size: cover;
+*/
 }
