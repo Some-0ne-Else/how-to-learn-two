@@ -1,5 +1,5 @@
 .logo_place_footer{
-  width: 183px;
+  width: 184px; /*Взял на себя смелость иправить ошибку из Брифа 1, при значении 183 не влезает один пиксель буквы М */
   height: 35px;
   background-image: url("./logo_place_footer.svg");
 }
