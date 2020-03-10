@@ -1,12 +1,8 @@
-@keyframes rotation_square{
-  0%{transform: rotate(-15deg);}
+@import url("./_shape/_square/rotation_shape_square.css");
+@import url("./_shape/_triangle/rotation_shape_triangle.css");
 
-  100%{transform: rotate(345deg); }
- }
+/*
+.rotation{
+}
+*/
 
-
- @keyframes rotation_triangle{
-  0%{transform: rotate(0deg);}
-
-  100%{transform: rotate(360deg);}
- }
