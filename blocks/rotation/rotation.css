@@ -1,5 +1,12 @@
-@keyframes rotation{
-  /*0%{  transform: rotate(-15deg); }*/ /* Так нам не придется писать две анимации. Валидатор не против. */
+@keyframes rotation_square{
+  0%{transform: rotate(-15deg);}
 
   100%{transform: rotate(345deg); }
+ }
+
+
+ @keyframes rotation_triangle{
+  0%{transform: rotate(0deg);}
+
+  100%{transform: rotate(360deg);}
  }

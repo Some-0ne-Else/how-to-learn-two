@@ -7,5 +7,5 @@
   background-image: url("./kaufman_triangle.svg");
   background-size:cover;
   z-index:0;
-  animation: rotation 20s infinite linear;
+  animation: rotation_triangle 20s infinite linear;
 }
